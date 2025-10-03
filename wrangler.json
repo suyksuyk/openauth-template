@@ -10,8 +10,7 @@
     }
   ],
    "vars": {
-    "FROM_EMAIL": "noreply@yourdomain.com",
-    "RESEND_API_KEY": "re_68qprd9X_WrjhCZpy2xGbkgYMLNAc8Sq6"
+    "FROM_EMAIL": "noreply@yourdomain.com"
   },
   "d1_databases": [
     {
