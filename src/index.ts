@@ -78,7 +78,7 @@ export default {
     const url = new URL(request.url);
     
     // 演示用的重定向逻辑（保持原有功能）
-    /*if (url.pathname === "/") {
+    if (url.pathname === "/") {
       url.searchParams.set("redirect_uri", url.origin + "/callback");
       url.searchParams.set("client_id", "your-client-id");
       url.searchParams.set("response_type", "code");
@@ -89,7 +89,7 @@ export default {
         message: "OAuth flow complete!",
         params: Object.fromEntries(url.searchParams.entries()),
       });
-    }*/
+    }
 
     // 核心认证逻辑
     return issuer({
